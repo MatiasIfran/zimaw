@@ -54,7 +54,7 @@
                 <span class="h5 mb-0"><?php esc_html_e('Menu', 'bootscore'); ?></span>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body d-flex justify-content-end">
+              <div class="offcanvas-body d-md-flex justify-content-md-end">
                 <!-- Bootstrap 5 Nav Walker Main Menu -->
                 <?php
                 wp_nav_menu(array(
