@@ -5,3 +5,197 @@
 // Add your own code here!
 // Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
 // Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
+
+:root {
+
+    /* Colors: */
+    --unnamed-color-eaeaea: #EAEAEA;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-f3f3f3: #F3F3F3;
+    --unnamed-color-6744f8: #6744F8;
+    --unnamed-color-8000b7: #8000B7;
+    --unnamed-color-969696: #969696;
+    --unnamed-color-4e4e4e: #4E4E4E;
+    --unnamed-color-707070: #707070;
+    --unnamed-color-000000: #000000;
+    --unnamed-color-800080: #800080;
+    --unnamed-color-00ff80: #00FF80;
+    --unnamed-color-3e3e3e: #3E3E3E;
+    --unnamed-color-3d3d3d: #3D3D3D;
+    --unnamed-color-3c3c3c: #3C3C3C;
+    --unnamed-color-8b8b8b: #8B8B8B;
+    
+    /* Font/Text values */
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap; 
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-Italic.ttf') format('truetype'); 
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-LightItalic.ttf') format('truetype');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-MediumItalic.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-SemiBoldItalic.ttf') format('truetype'); 
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('/wp-content/themes/bootscore-child-main/fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+        font-weight: 800;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    /* Font/text values */
+    --unnamed-font-family-open-sans: 'Open Sans';
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-style-italic: italic;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-24: 24px;
+    --unnamed-font-size-26: 26px;
+    --unnamed-font-size-30: 30px;
+    --unnamed-font-size-40: 40px;
+    --unnamed-font-size-70: 70px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-33: 33px;
+    --unnamed-line-spacing-36: 36px;
+    --unnamed-line-spacing-41: 41px;
+    --unnamed-line-spacing-70: 70px;
+    
+}
+    
+/* Character Styles */
+.texto-open-sans-—-26pt {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-26);
+line-height: var(--unnamed-line-spacing-36);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-40);
+line-height: var(--unnamed-line-spacing-70);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3c3c3c);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-30);
+line-height: var(--unnamed-line-spacing-41);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d3d3d);
+}
+.unnamed-character-style-3 {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-33);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3e3e3e);
+}
+.unnamed-character-style-4 {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-italic);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-70);
+line-height: var(--unnamed-line-spacing-70);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3c3c3c);
+}
+.unnamed-character-style-5 {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-70);
+line-height: var(--unnamed-line-spacing-70);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3c3c3c);
+}
+.unnamed-character-style-6 {
+font-family: var(--unnamed-font-family-open-sans);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-33);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-8b8b8b);
+}
+
+body{
+    font-family: 'Open Sans';
+}
