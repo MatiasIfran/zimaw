@@ -4,12 +4,14 @@
     color: var(--unnamed-color-3d3d3d);
 
     a.brand{
+        color: var(--unnamed-color-3d3d3d);
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
     }
 
-    // a:first-letter {
-    //     font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
-    // }
+    a span {
+        color: var(--unnamed-color-3d3d3d);
+        font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
+    }
 
     #mega-menu-main-menu {
         .mega-menu-link {
@@ -20,7 +22,7 @@
             }
         }
 
-        #mega-menu-item-29 {
+        #mega-menu-item-102 {
             width: 252px;
             height: 73px;
             background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;

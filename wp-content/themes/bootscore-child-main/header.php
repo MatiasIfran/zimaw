@@ -45,8 +45,8 @@
           <div class="container"> <!--  shadow-sm p-3 rounded-->
 
             <!-- Navbar Brand -->
-            <a class="navbar-brand xs d-md-none brand" href="<?php echo esc_url(home_url()); ?>">Zimaw</a>
-            <a class="navbar-brand md d-none d-md-block brand" href="<?php echo esc_url(home_url()); ?>">Zimaw</a>
+            <a class="navbar-brand xs d-md-none brand" href="<?php echo esc_url(home_url()); ?>"><span>Z</span>ima<span>w</span></a>
+            <a class="navbar-brand md d-none d-md-block brand" href="<?php echo esc_url(home_url()); ?>"><span>Z</span>ima<span>w</span></a>
 
             <!-- Offcanvas Navbar -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">
