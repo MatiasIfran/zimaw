@@ -1,5 +1,7 @@
-jQuery(function ($) {
+jQuery(document).ready(function ($) {
 
-    // Do stuff here
+    jQuery('.bi-arrow-down-circle').click(function () {
+        alert( "Iniciar scroll a proximo section" );
+    });
 
-}); // jQuery End
+});

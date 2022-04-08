@@ -1,0 +1,20 @@
+#nav-main {
+
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3d3d3d);
+
+    a.brand{
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
+    }
+
+    // a:first-letter {
+    //     font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
+    // }
+
+    #bootscore-navbar {
+        a {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+            color: var(--unnamed-color-8b8b8b);
+        }
+    }
+}

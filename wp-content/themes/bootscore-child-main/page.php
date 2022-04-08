@@ -19,7 +19,7 @@ get_header();
     <main id="main" class="site-main">
 
       <div class="entry-content">
-      <section id="rectangle_one" class="height-100 py-5 width-100">
+      <section id="rectangle_one" class="height-100 py-5 width-100 bg-light">
         <div class="container h-100 d-flex align-items-center justify-content-star">
           <div class="element">
             <h1 class="title"><?php echo get_field('english_home_title')?></h1>
