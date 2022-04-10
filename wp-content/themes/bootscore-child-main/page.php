@@ -183,6 +183,7 @@ get_header();
               </div>
             </div>
           </div>
+          <h4 class="text-center info_price">Price in Dkk (EX VAT)</h4>
         </div>
       </section>
 
