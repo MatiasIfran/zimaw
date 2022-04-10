@@ -33,6 +33,7 @@ get_header();
           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
         </svg>
       </section>
+
       <section id="block_1" class="height-75">
         <div class="container h-100 text-center d-flex align-items-center align-self-center">
           <div>
@@ -41,20 +42,24 @@ get_header();
           </div>
         </div>
       </section>
+
       <section id="block_2" class="height-100 width-100 bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col d-flex align-items-center">
+        <div class="container h-100">
+          <div class="row h-100">
+
+            <div class="col-md-5 d-flex align-items-center">
               <h2 class='title_block_two'><?php echo get_field('title_block_2')?></h2>
             </div>
-            <div class="col d-flex align-items-center flex-column">
-              <h4 class='text_one_block_2'><?php echo get_field('text_one_block_2')?></h4>
-              <h4 class='text_two_block_2'><?php echo get_field('text_two_block_2')?></h4>
+            <div class="col-md-7 d-flex align-self-center flex-column">
+              <h4 class='text_one_block_2 mb-4'><?php echo get_field('text_one_block_2')?></h4>
+              <h4 class='text_two_block_2 mb-4 p-4'><?php echo get_field('text_two_block_2')?></h4>
               <h4 class='text_three_block_2'><?php echo get_field('text_three_block_2')?></h4>
             </div>
+            
           </div>
         </div>
       </section>
+
       <section id="block_3" class="height-100 width-100">
         <div class="container">
           <div class="row">
