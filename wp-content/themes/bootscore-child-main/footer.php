@@ -14,7 +14,7 @@
 
 <footer>
 
-  <div class="bootscore-footer bg-light pt-5 pb-3">
+  <div id="footer_child" class="bootscore-footer py-5">
     <div class="container">
 
       <!-- Top Footer Widget -->
@@ -27,7 +27,7 @@
       <div class="row">
 
         <!-- Footer 1 Widget -->
-        <div class="col-md-6 col-lg-3">
+        <div id="footer_1" class="col-md-6">
           <?php if (is_active_sidebar('footer-1')) : ?>
             <div>
               <?php dynamic_sidebar('footer-1'); ?>
@@ -35,26 +35,8 @@
           <?php endif; ?>
         </div>
 
-        <!-- Footer 2 Widget -->
-        <div class="col-md-6 col-lg-3">
-          <?php if (is_active_sidebar('footer-2')) : ?>
-            <div>
-              <?php dynamic_sidebar('footer-2'); ?>
-            </div>
-          <?php endif; ?>
-        </div>
-
-        <!-- Footer 3 Widget -->
-        <div class="col-md-6 col-lg-3">
-          <?php if (is_active_sidebar('footer-3')) : ?>
-            <div>
-              <?php dynamic_sidebar('footer-3'); ?>
-            </div>
-          <?php endif; ?>
-        </div>
-
         <!-- Footer 4 Widget -->
-        <div class="col-md-6 col-lg-3">
+        <div id="footer_4" class="col-md-6 d-flex justify-content-md-end">
           <?php if (is_active_sidebar('footer-4')) : ?>
             <div>
               <?php dynamic_sidebar('footer-4'); ?>
@@ -81,13 +63,6 @@
 
     </div>
   </div>
-
-  <div class="bootscore-info bg-light text-muted border-top py-2 text-center">
-    <div class="container">
-      <small>&copy;&nbsp;<?php echo Date('Y'); ?> - <?php bloginfo('name'); ?></small>
-    </div>
-  </div>
-
 </footer>
 
 <div class="top-button position-fixed zi-1020">

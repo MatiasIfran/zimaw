@@ -1,0 +1,43 @@
+#footer_child {
+
+    background-color: #E1E1E1;
+
+    #footer_1 {
+        h2 {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-3d3d3d);
+            text-align: left;
+        }
+
+        h2::first-letter {
+            font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-3d3d3d);
+            text-align: left;
+        }
+
+        h4 {
+            font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-30)/66px var(--unnamed-font-family-open-sans);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-3c3c3c);
+            text-align: left;
+        }
+    }
+
+    #footer_4 {
+        h4 {
+            font: var(--unnamed-font-style-normal) normal normal 36px/66px var(--unnamed-font-family-open-sans);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-3c3c3c);
+            text-align: right;
+            
+            span {
+                font: italic normal 600 36px/66px "Open Sans";
+                letter-spacing: var(--unnamed-character-spacing-0);
+                color: var(--unnamed-color-3c3c3c);
+                text-align: right;
+            }
+        }
+    }
+}
