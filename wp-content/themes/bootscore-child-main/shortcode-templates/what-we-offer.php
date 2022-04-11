@@ -3,8 +3,8 @@
     <h2 class='title_block_three my-5'><?php echo get_field('title_block_3')?></h2>
 
     <div class="row">
-        <div class="col-sm-4">
-            <div class="card shadow p-4 mb-5  rounded">
+        <div class="col-sm-4 d-flex">
+            <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px"
                         viewBox="0 0 24 24" width="24px" fill="#000000">
@@ -18,8 +18,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card shadow p-4 mb-5  rounded">
+        <div class="col-sm-4 d-flex">
+            <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
                         fill="#000000">
@@ -31,8 +31,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card shadow p-4 mb-5  rounded">
+        <div class="col-sm-4 d-flex">
+            <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" height="24px" width="24px"
                         viewBox="0 0 512 512">
@@ -52,8 +52,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card shadow p-4 mb-5  rounded">
+        <div class="col-sm-4 d-flex">
+            <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-headset"
                         viewBox="0 0 16 16">
@@ -64,8 +64,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card shadow p-4 mb-5 rounded">
+        <div class="col-sm-4 d-flex">
+            <div class="card shadow p-2 mb-5 rounded">
                 <div class="card-body d-flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
                         fill="#000000">
@@ -77,11 +77,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card shadow p-4 mb-5  rounded">
+        <div class="col-sm-4 d-flex">
+            <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
-                        <title>Paper Plane</title>
                         <path
                             d="M53.12 199.94l400-151.39a8 8 0 0110.33 10.33l-151.39 400a8 8 0 01-15-.34l-67.4-166.09a16 16 0 00-10.11-10.11L53.46 215a8 8 0 01-.34-15.06zM460 52L227 285"
                             fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
