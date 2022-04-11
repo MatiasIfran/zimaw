@@ -17,6 +17,7 @@
     .card {
         svg {
            color: $primary;
+           fill: $primary;
            width: 80px;
            height: 55px;
         }
@@ -35,6 +36,7 @@
 
         svg {
             color: #fff !important;
+            fill: #fff !important;
         }
 
         .card-title {

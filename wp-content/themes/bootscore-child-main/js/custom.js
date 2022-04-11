@@ -1,9 +1,5 @@
 jQuery(document).ready(function ($) {
 
-    jQuery('.bi-arrow-down-circle').click(function () {
-        jQuery('#block_1').scroll();
-    });
-
     //table
     jQuery(this).find('.title_table').hide();
 
