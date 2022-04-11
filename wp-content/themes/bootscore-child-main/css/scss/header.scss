@@ -27,16 +27,16 @@
         }
 
         #mega-menu-item-102 {
-            width: 252px;
             background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
             border-radius: 37px;
 
             .mega-menu-link {
                 color: $secondary;
+                padding: 1.5rem;
                 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-                letter-spacing: var(--unnamed-character-spacing-0);
-                text-align: center;
-                line-height: 73px !important;
+                align-items: center ;
+                justify-content: center;
+                display: flex;
 
                 &:hover {
                     border-bottom: none !important;
