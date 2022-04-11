@@ -1,5 +1,9 @@
 #nav-main {
 
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3d3d3d);
 
@@ -24,7 +28,6 @@
 
         #mega-menu-item-102 {
             width: 252px;
-            height: 73px;
             background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
             border-radius: 37px;
 

@@ -1,21 +1,13 @@
 #rectangle_one {
+    height: calc(100vh - 32px);
+    max-height: 100%;
+    overflow: hidden;
+    position: relative;
+
     .element {
         /* UI Properties */
         color: var(--unnamed-color-3c3c3c);
         letter-spacing: var(--unnamed-character-spacing-0);
-
-        h1.title {
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 80px/var(--unnamed-line-spacing-70) var(--unnamed-font-family-open-sans);
-        }
-
-        h1::first-letter {
-            font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 80px/var(--unnamed-line-spacing-70) var(--unnamed-font-family-open-sans) !important;
-           
-        }
-
-        h1.subtitle {
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-70)/var(--unnamed-line-spacing-70) var(--unnamed-font-family-open-sans);
-        }
 
         .learn_more, .contact_us {
             width: 252px;
@@ -43,10 +35,11 @@
 
     }
 
-    .bi-arrow-down-circle{
+    .scroll_down {
         color: $primary;
-        margin-left: 240px;
-        margin-bottom: 54px;
-        cursor: pointer;
+        display: block;
+        position: absolute;
+        left: 5rem;
+        bottom: 20px;
     }
 }
