@@ -3,7 +3,7 @@
     <h2 class='title_block_three my-5'><?php echo get_field('title_block_3')?></h2>
 
     <div class="row">
-        <div class="col-sm-4 d-flex">
+        <div class="col-md-6 col-xl-4 d-md-flex">
             <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex align-items-center flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px"
@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 d-flex">
+        <div class="col-md-6 col-xl-4 d-md-flex">
             <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex align-items-center flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 d-flex">
+        <div class="col-md-6 col-xl-4 d-md-flex">
             <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex align-items-center flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" height="24px" width="24px"
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 d-flex">
+        <div class="col-md-6 col-xl-4 d-md-flex">
             <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex align-items-center flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-headset"
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 d-flex">
+        <div class="col-md-6 col-xl-4 d-md-flex">
             <div class="card shadow p-2 mb-5 rounded">
                 <div class="card-body d-flex align-items-center flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 d-flex">
+        <div class="col-md-6 col-xl-4 d-md-flex">
             <div class="card shadow p-2 mb-5  rounded">
                 <div class="card-body d-flex align-items-center flex-row">
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">

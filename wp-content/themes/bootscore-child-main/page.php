@@ -73,6 +73,10 @@ get_header();
                     <?php include dirname(__FILE__).'/shortcode-templates/we_work.php'?>
                 </section>
 
+                <section id="block_7" class="width-100">
+                    <?php include dirname(__FILE__).'/shortcode-templates/forms.php'?>
+                </section>
+
                 <?php the_post(); ?>
                 <?php the_content(); ?>
                 <?php wp_link_pages(array(

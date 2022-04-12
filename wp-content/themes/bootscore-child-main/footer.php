@@ -65,9 +65,9 @@
   </div>
 </footer>
 
-<div class="top-button position-fixed zi-1020">
+<!-- <div class="top-button position-fixed zi-1020">
   <a href="#to-top" class="btn btn-primary shadow"><i class="fas fa-chevron-up"></i><span class="visually-hidden-focusable">To top</span></a>
-</div>
+</div> -->
 
 </div><!-- #page -->
 

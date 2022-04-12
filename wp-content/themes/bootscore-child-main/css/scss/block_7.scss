@@ -1,0 +1,56 @@
+#block_7 {
+    background-image: url('http://localhost/zimaw/wp-content/uploads/2022/04/background-image.jpg');
+
+    .title_block_seven {
+        color: var(--unnamed-color-ffffff);
+        font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-70)/76px var(--unnamed-font-family-open-sans);
+
+        span {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-70)/76px var(--unnamed-font-family-open-sans);
+        }
+    }
+
+    .contact_form {
+        background: var(--unnamed-color-ffffff);
+        box-shadow: 3px 3px 6px #00000029;
+        border-radius: 24px;
+        opacity: 0.5;
+
+        .buttons_class {
+
+            ul li {
+                display: flex;
+                background: var(--unnamed-color-f3f3f3) !important;
+                border: 2px solid var(--unnamed-color-6744f8) !important;
+                border-radius: 10px;
+                opacity: 0.5;
+
+                label {
+                    padding: 3px;
+                    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+                    color: var(--unnamed-color-000000);
+                    text-align: center;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .inputs {
+            input {
+                border: none;
+                border-bottom: 1px solid #ccc !important;
+            }
+           
+        }
+
+        .contact_us {
+            width: 252px;
+            height: 72px;
+            border-radius: 36px;
+            background: var(--unnamed-color-8000b7);
+            opacity: 1;
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+            color: var(--unnamed-color-ffffff);
+        }
+    }
+}
