@@ -10,7 +10,6 @@
 
 get_header();
 ?>
-<?php echo '<script> console.log('. json_encode( get_field('url_video') ) .') </script>'; ?>
 
 <div class="wp-block-cover is-light"><span aria-hidden="true"
         class="wp-block-cover__gradient-background has-background-dim"></span><video
