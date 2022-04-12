@@ -40,7 +40,7 @@
     <header id="masthead" class="site-header">
 
   
-        <nav id="nav-main" class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id="nav-main" class="navbar navbar-expand-lg navbar-light mt-4">
 
           <div class="container"> <!--  shadow-sm p-3 rounded-->
 
@@ -50,7 +50,7 @@
 
             <!-- Offcanvas Navbar -->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-navbar">
-              <div class="offcanvas-header bg-light">
+              <div class="offcanvas-header ">
                 <span class="h5 mb-0"><?php esc_html_e('Menu', 'bootscore'); ?></span>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
@@ -67,6 +67,7 @@
                   'walker' => new bootstrap_5_wp_nav_menu_walker()
                 ));
                 ?>
+                <?php include dirname(__FILE__).'/shortcode-templates/dropdown-language.php'?>
                 <!-- Bootstrap 5 Nav Walker Main Menu End -->
               </div>
             </div>
