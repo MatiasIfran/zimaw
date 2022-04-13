@@ -31,17 +31,19 @@
         }
     }
 
-    .card:hover {
-        cursor: pointer;
-        background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
+    @media (min-width: 768px) { 
+        .card:hover {
+            cursor: pointer;
+            background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
 
-        svg {
-            color: #fff !important;
-            fill: #fff !important;
-        }
+            svg {
+                color: #fff !important;
+                fill: #fff !important;
+            }
 
-        .card-title {
-            color: var(--unnamed-color-ffffff);
+            .card-title {
+                color: var(--unnamed-color-ffffff);
+            }
         }
     }
 }
