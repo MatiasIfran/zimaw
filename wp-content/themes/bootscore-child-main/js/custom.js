@@ -37,7 +37,8 @@ jQuery(document).ready(function ($) {
     jQuery('#block_5').find('th.header_3').css({'border-top': '5px solid #EAEAEA','border-radius': '6px 6px 0px 0px'})
     jQuery('#block_5').find('th.header_4').css({'border-top': '5px solid #EAEAEA','border-radius': '6px 6px 0px 0px'})
 
-    jQuery('#block_5').find('td.element_0').css('border', '1px solid var(--unnamed-color-707070)');
-    jQuery('#block_5').find('th.0').css('border', '1px solid var(--unnamed-color-707070)');
+    jQuery('#block_5').find('th.header_0').css({'border': '1px solid var(--unnamed-color-707070)', 'border-bottom': 'none'});
+    jQuery('#block_5').find('td.element_0').css({'border-left': '1px solid var(--unnamed-color-707070)', 'border-right': '1px solid var(--unnamed-color-707070)'});
+  
     
 });

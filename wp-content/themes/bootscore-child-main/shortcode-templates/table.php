@@ -7,7 +7,7 @@
     <h2 class="title_table"><?php echo get_field('title_table')?></h2>
     
     <table class="table table-striped">
-        <thead>
+        <thead class="thead">
             <tr>
                 <?php foreach($headers as $key=>$header) : ?>
                     <th class="<?php echo 'header_'.$key?> pb-5 text-center" scope="col"><?php echo $header['c'];?></th>

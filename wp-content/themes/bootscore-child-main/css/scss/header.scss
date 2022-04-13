@@ -71,4 +71,15 @@
             @include hover_button();
         }
     }
+
+    .navbar_toggler {
+        color:#8000B7;
+        border: none;
+        background-color: none !important;
+
+        svg {
+            height: 40px;
+        }
+    }
+
 }

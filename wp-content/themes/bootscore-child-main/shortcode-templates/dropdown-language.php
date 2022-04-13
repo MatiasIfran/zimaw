@@ -5,8 +5,8 @@
 ?>
 
 <?php  ?>
-<div class="dropdown">
-    <button class="btn btn-secondary bg-white dropdown-toggle d-flex align-items-center justify-content-center" style="height: 48px" type="button" id="dropdownMenuChangeFlag"
+<div class="dropdown text-center ">
+    <button class="btn btn-secondary bg-white dropdown-toggle d-md-flex align-items-center justify-content-center" style="height: 48px" type="button" id="dropdownMenuChangeFlag"
         data-bs-toggle="dropdown" aria-expanded="false">
         <?php 
             if($post->post_name == 'danish'): echo $flag_danish;
