@@ -7,6 +7,21 @@
         color: var(--unnamed-color-4e4e4e);
     }
     
+    .tbody {
+
+      tr {
+        height: 46px;
+      
+        .svg_circle {
+          height: 32px;
+          width: 32px;
+          fill: var(--unnamed-color-969696);
+        }
+      }
+
+     
+    }
+
     .show_table {
       margin-top: 100px;
       position: absolute;
