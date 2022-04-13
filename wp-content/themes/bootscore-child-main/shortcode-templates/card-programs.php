@@ -76,5 +76,5 @@
             </div>
         </div>
     </div>
-    <h4 class="text-center info_price">Price in Dkk (EX VAT)</h4>
+    <h4 class="text-center info_price">*Priser i Dkk (EX moms)</h4>
 </div>
