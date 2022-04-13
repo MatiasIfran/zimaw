@@ -1,5 +1,7 @@
 #block_2 {
 
+    overflow-x:hidden;
+
     padding: 200px 0;
     .title_block_two {
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/76px var(--unnamed-font-family-open-sans);
@@ -26,8 +28,25 @@
             color: var(--unnamed-color-ffffff);
             background: var(--unnamed-color-8000b7);
             border: 3px solid var(--unnamed-color-8000b7);
-            border-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
             opacity: 0.6;
+        }
+        @media (max-width: 768px) { 
+            width: 100vw;
+            .text_two_block_2 {
+                padding-right: 20vw !important;
+            }
+        }
+    }
+
+    @media (max-width: 576px) { 
+        .block_purple {
+            margin-left:0px;
+
+            .text_two_block_2 {
+                padding-right: 10vw !important;
+            }
         }
     }
     
