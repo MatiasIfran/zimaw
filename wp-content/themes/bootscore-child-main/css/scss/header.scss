@@ -1,3 +1,42 @@
+@mixin elements {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+
+    &:hover {
+        border-bottom: 2px solid $primary !important;
+        font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+    }
+}
+
+@mixin background_contact {
+    background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
+    border-radius: 37px;
+}
+
+@mixin button_contact {
+    color: $secondary;
+    padding: 1.5rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    &:hover {
+        border-bottom: none !important;
+    }
+}
+
+@mixin hover_button {
+    &:hover {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+        background-color: $secondary;
+        border: 3px solid $primary;
+
+        .mega-menu-link {
+            color: $primary;
+        }
+    }
+}
+
 #nav-main {
 
     position: absolute;
@@ -7,7 +46,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3d3d3d);
 
-    a.brand{
+    a.brand {
         color: var(--unnamed-color-3d3d3d);
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
     }
@@ -17,40 +56,19 @@
         font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 50px/39px var(--unnamed-font-family-open-sans);
     }
 
-    #mega-menu-main-menu {
+    #mega-menu-main-menu, #mega-menu-danish {
         .mega-menu-link {
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-            &:hover {
-                border-bottom: 2px solid $primary !important;
-                font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-            }
+            @include elements();
         }
 
-        #mega-menu-item-102 {
-            background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
-            border-radius: 37px;
+        #mega-menu-item-102, #mega-menu-item-370 {
+            @include background_contact();
 
             .mega-menu-link {
-                color: $secondary;
-                padding: 1.5rem;
-                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-                align-items: center ;
-                justify-content: center;
-                display: flex;
-
-                &:hover {
-                    border-bottom: none !important;
-                }
+                @include button_contact();
             }
 
-            &:hover {
-                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-                background-color: $secondary;
-                border: 3px solid $primary;
-                .mega-menu-link {
-                    color: $primary;
-                }
-            }
+            @include hover_button();
         }
     }
 }
