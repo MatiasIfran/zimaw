@@ -23,6 +23,19 @@
             color: var(--unnamed-color-3c3c3c);
             text-align: left;
         }
+
+        @media (max-width: 576px) { 
+            h2 {
+                font-size: 28pt;
+            }
+            
+            h2::first-letter {
+                font-size: 38pt;
+            }
+            h4 {
+                font-size: 18pt;
+            }
+        }
     }
 
     #footer_4 {
@@ -30,14 +43,22 @@
             font: var(--unnamed-font-style-normal) normal normal 36px/66px var(--unnamed-font-family-open-sans);
             letter-spacing: var(--unnamed-character-spacing-0);
             color: var(--unnamed-color-3c3c3c);
-            text-align: right;
             
             span {
                 font: italic normal 600 36px/66px "Open Sans";
                 letter-spacing: var(--unnamed-character-spacing-0);
                 color: var(--unnamed-color-3c3c3c);
-                text-align: right;
             }
         }
+
+        @media (max-width: 576px) { 
+            h4 {
+                font-size: 18pt;
+            }
+            span {
+                font-size: 20pt;
+            }
+        }
+            
     }
 }
