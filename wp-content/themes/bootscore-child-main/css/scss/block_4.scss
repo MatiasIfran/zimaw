@@ -7,7 +7,6 @@
       var(--unnamed-font-family-open-sans);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-4e4e4e);
-    text-align: left;
 
     span {
       font: var(--unnamed-font-style-normal) normal
@@ -15,9 +14,19 @@
         var(--unnamed-font-family-open-sans);
       letter-spacing: var(--unnamed-character-spacing-0);
       color: var(--unnamed-color-4e4e4e);
-      text-align: left;
     }
   }
+
+  @media (max-width: 768px) { 
+    .title_block_four {
+        font-size: 30pt;
+        text-align: center;
+        span {
+          font-size: 30pt;
+        }
+    }
+}
+
 
   .card {
     border-top: 5px solid var(--unnamed-color-707070);
