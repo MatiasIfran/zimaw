@@ -11,10 +11,8 @@
 get_header();
 ?>
 
-<div class="wp-block-cover is-light"><span aria-hidden="true"
-        class="wp-block-cover__gradient-background has-background-dim"></span><video
-        class="wp-block-cover__video-background intrinsic-ignore" autoplay="" muted="" loop="" playsinline=""
-        src="<?php echo get_field('url_video')?>" data-object-fit="cover"></video>
+<div class="wp-block-cover is-light"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay=""
+        muted="" loop="" playsinline="" src="<?php echo get_field('url_video')?>" data-object-fit="cover"></video>
     <div class="wp-block-cover__inner-container">
         <section id="rectangle_one" class="">
             <div class="container h-75 d-flex align-items-end">
@@ -22,8 +20,7 @@ get_header();
                     <a class="btn btn-secondary me-4 learn_more"
                         href="<?php echo get_field('learn_more_button')['url']?>"
                         target="<?php echo get_field('learn_more_button')['target']?>"><?php echo get_field('learn_more_button')['title']?></a>
-                    <a class="btn btn-primary contact_us"
-                        href="<?php echo get_field('Contact_us_button')['url']?>"
+                    <a class="btn btn-primary contact_us" href="<?php echo get_field('Contact_us_button')['url']?>"
                         target="<?php echo get_field('Contact_us_button')['target']?>"><?php echo get_field('Contact_us_button')['title']?></a>
                 </div>
                 <a href="#block_1" class="scroll_down"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
@@ -65,7 +62,7 @@ get_header();
                     <?php include dirname(__FILE__).'/shortcode-templates/card-programs.php'?>
                 </section>
 
-                <section id="block_5">
+                <section id="block_5" class="width-100">
                     <?php include dirname(__FILE__).'/shortcode-templates/table.php'?>
                 </section>
 
