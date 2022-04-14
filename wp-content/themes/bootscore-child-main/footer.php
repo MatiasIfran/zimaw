@@ -27,7 +27,7 @@
       <div class="row">
 
         <!-- Footer 1 Widget -->
-        <div id="footer_1" class="col-md-6">
+        <div id="footer_1" class="col-12 col-md-6">
           <?php if (is_active_sidebar('footer-1')) : ?>
             <div>
               <?php dynamic_sidebar('footer-1'); ?>
@@ -36,7 +36,7 @@
         </div>
 
         <!-- Footer 4 Widget -->
-        <div id="footer_4" class="col-md-6 d-flex justify-content-md-end">
+        <div id="footer_4" class="col-12 col-md-6 d-flex justify-content-md-end">
           <?php if (is_active_sidebar('footer-4')) : ?>
             <div>
               <?php dynamic_sidebar('footer-4'); ?>
