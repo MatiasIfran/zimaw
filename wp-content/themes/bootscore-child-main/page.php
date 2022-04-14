@@ -70,7 +70,7 @@ get_header();
                     <?php include dirname(__FILE__).'/shortcode-templates/we_work.php'?>
                 </section>
 
-                <section id="block_7" class="width-100">
+                <section id="block_7" class="width-100 pb-5">
                     <?php include dirname(__FILE__).'/shortcode-templates/forms.php'?>
                 </section>
 

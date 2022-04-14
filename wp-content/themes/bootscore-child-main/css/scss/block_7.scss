@@ -147,4 +147,23 @@
             }
         }
     }
+    #button_up {
+        position: absolute;
+        right: 5rem;
+        height: 100px;
+        width: 100px;
+        background-color: transparent;
+        border: none;
+    }
+
+    @media (max-width: 1199px) { 
+        #button_up {
+            font-size: 30pt;
+            
+            svg {
+                display: none; 
+                position: initial;
+            }
+        }
+    }
 }
