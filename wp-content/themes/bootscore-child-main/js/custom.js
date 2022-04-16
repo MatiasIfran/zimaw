@@ -25,32 +25,32 @@ jQuery(document).ready(function ($) {
 
     //table
 
-    jQuery('#block_5').find('#button_show').click(function () {
-        jQuery('#block_5').find('.table').css('opacity','1');
-        jQuery('#block_5').find('#elements_hide').css('display','flex');
-        jQuery('#block_5').find('.line_gradient').hide();
-        jQuery('#block_5').find(jQuery( "tr" )).css('display', 'table-row');
+    jQuery('#block_table').find('#button_show').click(function () {
+        jQuery('#block_table').find('.table').css('opacity','1');
+        jQuery('#block_table').find('#elements_hide').css('display','flex');
+        jQuery('#block_table').find('.line_gradient').hide();
+        jQuery('#block_table').find(jQuery( "tr" )).css('display', 'table-row');
         jQuery(this).hide();
     });
 
-    jQuery('#block_5').find('#button_hide').click(function () {
-        jQuery('#block_5').find('.table').css('opacity','0.71');
-        jQuery('#block_5').find('#elements_hide').hide();
-        jQuery('#block_5').find('#button_show').show();
-        jQuery('#block_5').find('.line_gradient').show();
-        jQuery('#block_5').find(jQuery( "tr" )).each(function(index) {
+    jQuery('#block_table').find('#button_hide').click(function () {
+        jQuery('#block_table').find('.table').css('opacity','0.71');
+        jQuery('#block_table').find('#elements_hide').hide();
+        jQuery('#block_table').find('#button_show').show();
+        jQuery('#block_table').find('.line_gradient').show();
+        jQuery('#block_table').find(jQuery( "tr" )).each(function(index) {
             if(index>4) { jQuery(this).hide()}
         });
     });
 
 
-    jQuery('#block_5').find('th.header_1').css({'border-top': '5px solid #EAEAEA'})
-    jQuery('#block_5').find('th.header_2').css({'border-top': '5px solid #8000B7'})
-    jQuery('#block_5').find('th.header_3').css({'border-top': '5px solid #EAEAEA'})
-    jQuery('#block_5').find('th.header_4').css({'border-top': '5px solid #EAEAEA'})
+    jQuery('#block_table').find('th.header_1').css({'border-top': '5px solid #EAEAEA'})
+    jQuery('#block_table').find('th.header_2').css({'border-top': '5px solid #8000B7'})
+    jQuery('#block_table').find('th.header_3').css({'border-top': '5px solid #EAEAEA'})
+    jQuery('#block_table').find('th.header_4').css({'border-top': '5px solid #EAEAEA'})
 
-    // jQuery('#block_5').find('th.header_0').css({'border': '1px solid var(--unnamed-color-707070)', 'border-bottom': 'none'});
-    // jQuery('#block_5').find('td.element_0').css({'border-left': '1px solid var(--unnamed-color-707070)', 'border-right': '1px solid var(--unnamed-color-707070)'});
+    // jQuery('#block_table').find('th.header_0').css({'border': '1px solid var(--unnamed-color-707070)', 'border-bottom': 'none'});
+    // jQuery('#block_table').find('td.element_0').css({'border-left': '1px solid var(--unnamed-color-707070)', 'border-right': '1px solid var(--unnamed-color-707070)'});
   
     
 });

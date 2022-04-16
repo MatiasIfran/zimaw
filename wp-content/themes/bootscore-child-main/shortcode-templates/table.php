@@ -39,7 +39,7 @@
             </tr>
             <?php endforeach; ?>
         </tbody>
-        <a id="button_show" class="btn btn-primary show_table p-3"><?php echo get_field('text_button') ?></a>
+        <a id="button_show" class="btn btn-primary show_table py-3 px-5"><?php echo get_field('text_button') ?></a>
     </table>
 </div>
 <div class="line_gradient"></div>

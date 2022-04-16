@@ -62,15 +62,19 @@ get_header();
                     <?php include dirname(__FILE__).'/shortcode-templates/card-programs.php'?>
                 </section>
 
-                <section id="block_5" class="width-100">
+                <section id="block_table" class="width-100">
                     <?php include dirname(__FILE__).'/shortcode-templates/table.php'?>
+                </section>
+
+                <section id="block_social">
+                    <?php include dirname(__FILE__).'/shortcode-templates/social.php'?>
                 </section>
 
                 <section id="block_6" class="width-100 bg-light">
                     <?php include dirname(__FILE__).'/shortcode-templates/we_work.php'?>
                 </section>
 
-                <section id="block_7" class="width-100 pb-5">
+                <section id="block_forms" class="width-100 pb-5">
                     <?php include dirname(__FILE__).'/shortcode-templates/forms.php'?>
                 </section>
 
