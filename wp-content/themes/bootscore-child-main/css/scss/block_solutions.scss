@@ -2,9 +2,16 @@
     border: 1px solid var(--unnamed-color-707070);
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 6px;
+    border: 3px solid transparent;
     
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 36px/49px var(--unnamed-font-family-open-sans);
     color: var(--unnamed-color-ffffff);
+}
+
+@mixin button_hover {
+    background-color: $secondary;
+    border: 3px solid $primary;
+    color: $primary;
 }
 
 #block_solutions {
@@ -22,23 +29,79 @@
     }
 
     .card-border {
+        height: 1000px;
         border-top: 5px solid var(--unnamed-color-707070);
 
+        .card-title {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 34px/46px var(--unnamed-font-family-open-sans);
+            color: var(--unnamed-color-4e4e4e);
+        }
         a {
-            background: var(--unnamed-color-969696) 0% 0% no-repeat padding-box;
+            background: var(--unnamed-color-969696);
             @include font_button();
         }
     }
 
     .card-border-purple {
+        height: 1000px;
         border-top: 5px solid var(--unnamed-color-8000b7);
 
+        .card-title {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 34px/46px var(--unnamed-font-family-open-sans);
+            color: var(--unnamed-color-8000b7);
+        }
         a {
-            background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
+            background: var(--unnamed-color-8000b7);
             @include font_button();
+        }
+        a:hover {
+            @include button_hover();
         }
     }
 
+    .card-border-purple, .card-border {
+        .elements_card {
+
+            height: 60%;
+
+            ul li {
+                list-style-type: none;
+                margin-top: 1rem;
+                background-image: url('../../../../uploads/assets/check-circle-fill.svg');
+                background-repeat: no-repeat;
+                background-size: 30px;
+                background-position-y: center;
+                padding: 10px 0 10px 40px;
+
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/26px var(--unnamed-font-family-open-sans);
+                color: var(--unnamed-color-3e3e3e);
+            }
+
+            ul p {
+                margin: 0;
+                padding-left: 40px;
+
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/26px var(--unnamed-font-family-open-sans);
+                color: var(--unnamed-color-3e3e3e);
+            }
+        }
+
+        .information_elements_card {
+
+            height: 15%;
+            ul li {
+                list-style-type: none;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/26px var(--unnamed-font-family-open-sans);
+                color: var(--unnamed-color-3e3e3e);
+            }
+
+            ul li:before{ 
+                content:"-"; 
+                position:relative; 
+                left:-5px;}
+
+        }
+    }
 
     .information_asterisk h2{
         color: var(--unnamed-color-8000b7);
@@ -57,12 +120,20 @@
 
         a {
             position: absolute;
-            background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
+            left: 40%;
+            margin-top: 5rem;
+
+            background: var(--unnamed-color-8000b7);
             @include font_button();
+            border-radius: 33px;
+        }
+        a:hover {
+            @include button_hover();
         }
     }
 
     .information_solution {
+        margin-top: 10rem;
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-26)/40px var(--unnamed-font-family-open-sans);
         color: var(--unnamed-color-4e4e4e);
         text-align: left;

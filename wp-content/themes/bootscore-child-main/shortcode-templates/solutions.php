@@ -7,12 +7,12 @@
             <div class="card card-border shadow p-4 mb-5 rounded">
                 <div class="card-body">
                     <h2 class="card-title text-center"><?php echo get_field('card_1_solutions')['title_card']?></h2>
-                    <div><?php echo get_field('card_1_solutions')['elements_card']?></div>
+                    <div class="elements_card"><?php echo get_field('card_1_solutions')['elements_card']?></div>
                     <hr>
-                    <div><?php echo get_field('card_1_solutions')['information_elements_card']?></div>
-                    <a class="btn btn-secondary me-4 my-4 learn_more"
+                    <div class="information_elements_card mt-4"><?php echo get_field('card_1_solutions')['information_elements_card']?></div>
+                    <div class="d-flex justify-content-center"><a class="btn btn-secondary me-4 my-4"
                     href="<?php echo (get_field('card_1_solutions')['button_contact_us'])['url']?>"
-                    target="<?php echo (get_field('card_1_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a>
+                    target="<?php echo (get_field('card_1_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a></div>
                 </div>
             </div>
         </div>
@@ -21,12 +21,12 @@
             <div class="card card-border-purple shadow p-4 mb-5 rounded">
                 <div class="card-body">
                     <h2 class="card-title text-center"><?php echo get_field('card_2_solutions')['title_card']?></h2>
-                    <div><?php echo get_field('card_2_solutions')['elements_card']?></div>
+                    <div class="elements_card"><?php echo get_field('card_2_solutions')['elements_card']?></div>
                     <hr>
-                    <div><?php echo get_field('card_2_solutions')['information_elements_card']?></div>
-                    <a class="btn btn-secondary me-4 my-4"
+                    <div class="information_elements_card mt-4"><?php echo get_field('card_2_solutions')['information_elements_card']?></div>
+                    <div class="d-flex justify-content-center"><a class="btn btn-secondary me-4 my-4"
                     href="<?php echo (get_field('card_2_solutions')['button_contact_us'])['url']?>"
-                    target="<?php echo (get_field('card_2_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a>
+                    target="<?php echo (get_field('card_2_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a></div>
                 </div>
             </div>
         </div>
@@ -39,11 +39,12 @@
     <div class="card shadow p-4 mb-5 rounded card-contact-us">
         <div class="card-body text-center">
             <h2 class="title_contact_us"><?php echo get_field('card_contact_us')['title_card_contact_us']?></h2>
-            <a class="btn btn-secondary my-4"
+        </div>
+        <a class="btn btn-secondary"
                     href="<?php echo (get_field('card_contact_us')['button_contact_us'])['url']?>"
                     target="<?php echo (get_field('card_contact_us')['button_contact_us'])['target']?>"><?php echo (get_field('card_contact_us')['button_contact_us'])['title']?></a>
-        </div>
+        
     </div>
     
-    <p class="information_solution mt-5 pt-5"><?php echo get_field('information_solution')?></p>
+    <p class="information_solution"><?php echo get_field('information_solution')?></p>
 </div>
