@@ -11,4 +11,11 @@
         color: var(--unnamed-color-000000);
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 28px/40px var(--unnamed-font-family-open-sans);
     }
+
+    .group_svg {
+        margin-top: 8rem;
+        svg {
+          margin-right: 3rem;
+        }
+    }
 }

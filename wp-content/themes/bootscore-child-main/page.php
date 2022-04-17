@@ -71,7 +71,7 @@ get_header();
                 </section>
 
                 <section id="block_services" class="width-100 bg-light">
-                    <div class="container">
+                    <div class="container py-5">
                         <h2 class='title_services py-5'><?php echo get_field('text_we_adapt_services')?></h2>
                     </div>
                 </section>
@@ -87,14 +87,6 @@ get_header();
                 <section id="block_forms" class="width-100 pb-5">
                     <?php include dirname(__FILE__).'/shortcode-templates/forms.php'?>
                 </section>
-
-                <?php the_post(); ?>
-                <?php the_content(); ?>
-                <?php wp_link_pages(array(
-          'before' => '<div class="page-links">' . esc_html__('Pages:', 'bootscore'),
-          'after'  => '</div>',
-        ));
-        ?>
             </div>
 
         </main><!-- #main -->
