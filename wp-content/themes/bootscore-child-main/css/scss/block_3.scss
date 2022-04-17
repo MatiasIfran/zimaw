@@ -38,6 +38,12 @@
             color: var(--unnamed-color-3d3d3d);
             text-align: left;
         }
+
+        @media (max-width: 768px) { 
+            .card-title {
+                font-size: 18pt;
+            }
+        }
     }
 
     @media (min-width: 768px) { 
