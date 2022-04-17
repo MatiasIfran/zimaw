@@ -4,6 +4,10 @@
     background-color: $secondary;
 }
 
+@mixin padding_100 {
+    padding: 100px 0;
+}
+
 @mixin padding_200 {
     padding: 200px 0;
 }
