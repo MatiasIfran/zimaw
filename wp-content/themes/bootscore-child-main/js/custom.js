@@ -1,24 +1,24 @@
 jQuery(document).ready(function ($) {
 
     //cards
-    jQuery('#block_4').find('#btn-1').click(function (){
-        jQuery('#block_4').find('#elements_card_1').hide();
-        jQuery('#block_4').find('#btn-1').attr("style", "display: none !important");
+    jQuery('#block_cards_plans').find('#btn-1').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_1').hide();
+        jQuery('#block_cards_plans').find('#btn-1').attr("style", "display: none !important");
     });
 
-    jQuery('#block_4').find('#btn-2').click(function (){
-        jQuery('#block_4').find('#elements_card_2').hide();
-        jQuery('#block_4').find('#btn-2').attr("style", "display: none !important");
+    jQuery('#block_cards_plans').find('#btn-2').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_2').hide();
+        jQuery('#block_cards_plans').find('#btn-2').attr("style", "display: none !important");
     });
 
-    jQuery('#block_4').find('#btn-3').click(function (){
-        jQuery('#block_4').find('#elements_card_3').hide();
-        jQuery('#block_4').find('#btn-3').attr("style", "display: none !important");
+    jQuery('#block_cards_plans').find('#btn-3').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_3').hide();
+        jQuery('#block_cards_plans').find('#btn-3').attr("style", "display: none !important");
     });
 
-    jQuery('#block_4').find('#btn-4').click(function (){
-        jQuery('#block_4').find('#elements_card_4').hide();
-        jQuery('#block_4').find('#btn-4').attr("style", "display: none !important");
+    jQuery('#block_cards_plans').find('#btn-4').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_4').hide();
+        jQuery('#block_cards_plans').find('#btn-4').attr("style", "display: none !important");
     });
 
     //finish card 

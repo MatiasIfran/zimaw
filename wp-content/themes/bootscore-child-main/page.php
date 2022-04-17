@@ -58,7 +58,7 @@ get_header();
                     <?php include dirname(__FILE__).'/shortcode-templates/what-we-offer.php'?>
                 </section>
 
-                <section id="block_4">
+                <section id="block_cards_plans">
                     <?php include dirname(__FILE__).'/shortcode-templates/card-programs.php'?>
                 </section>
 
@@ -68,6 +68,16 @@ get_header();
 
                 <section id="block_social">
                     <?php include dirname(__FILE__).'/shortcode-templates/social.php'?>
+                </section>
+
+                <section id="block_services" class="width-100 bg-light">
+                    <div class="container">
+                        <h2 class='title_services py-5'><?php echo get_field('text_we_adapt_services')?></h2>
+                    </div>
+                </section>
+
+                <section id="block_solutions">
+                    <?php include dirname(__FILE__).'/shortcode-templates/solutions.php'?>
                 </section>
 
                 <section id="block_6" class="width-100 bg-light">

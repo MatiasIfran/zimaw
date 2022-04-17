@@ -1,6 +1,6 @@
 #block_1 {
 
-    padding: 200px 0;
+    @include padding_200();
 
     .title_block_one {
         color: var(--unnamed-color-8000b7);
