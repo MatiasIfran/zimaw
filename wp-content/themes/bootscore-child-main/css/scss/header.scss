@@ -31,31 +31,31 @@
             }
         }
 
-        #mega-menu-item-102, #mega-menu-item-370 {
-            background: var(--unnamed-color-8000b7) 0% 0% no-repeat padding-box;
+        li:last-child {
+            background: var(--unnamed-color-8000b7);
             border-radius: 37px;
             border: 3px solid transparent;
 
             .mega-menu-link {
-                color: $secondary;
-                padding: 1.5rem;
-                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-                align-items: center;
-                justify-content: center;
-                display: flex;
-            
+                color: var(--unnamed-color-f3f3f3);
+                padding: 1.5rem !important;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans) !important;
+                align-items: center !important;
+                justify-content: center !important;
+                display: flex !important;
+
                 &:hover {
                     border-bottom: none !important;
                 }
             }
 
             &:hover {
-                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-                background-color: $secondary;
-                border: 3px solid $primary;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans) !important;
+                background-color: var(--unnamed-color-f3f3f3) !important;
+                border: 3px solid var(--unnamed-color-8000b7) !important;
         
                 .mega-menu-link {
-                    color: $primary;
+                    color: var(--unnamed-color-8000b7) !important;
                 }
             }
         }
