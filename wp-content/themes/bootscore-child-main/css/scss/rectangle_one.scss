@@ -15,13 +15,14 @@
 
         .learn_more, .contact_us {
             width: 252px;
-
-            @media (max-width: 576px) { 
-                width: 40vw;
-            }
             height: 72px;
             border-radius: 36px;
             line-height: 50px !important;
+
+            @media (max-width: 576px) { 
+                width: 40vw;
+                line-height: normal !important;
+            }
         }
 
         .learn_more {
