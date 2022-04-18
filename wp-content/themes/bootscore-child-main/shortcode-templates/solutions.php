@@ -1,6 +1,6 @@
 <div class="container">
     <h2 class='title_solutions'><?php echo get_field('title_block_solution')?></h2>
-    <h4 class='sub_title_social'><?php echo get_field('sub_title_block_solution')?></h4>
+    <h4 class='sub_title_solutions'><?php echo get_field('sub_title_block_solution')?></h4>
 
     <div class="row mt-5">
         <div class="col-sm-6">
