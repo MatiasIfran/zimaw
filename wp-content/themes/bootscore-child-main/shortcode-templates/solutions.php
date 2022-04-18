@@ -9,10 +9,12 @@
                     <h2 class="card-title text-center"><?php echo get_field('card_1_solutions')['title_card']?></h2>
                     <div class="elements_card"><?php echo get_field('card_1_solutions')['elements_card']?></div>
                     <hr>
-                    <div class="information_elements_card mt-4"><?php echo get_field('card_1_solutions')['information_elements_card']?></div>
-                    <div class="d-flex justify-content-center"><a class="btn btn-secondary me-4 my-4"
-                    href="<?php echo (get_field('card_1_solutions')['button_contact_us'])['url']?>"
-                    target="<?php echo (get_field('card_1_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a></div>
+                    <div class="information_elements_card mt-4">
+                        <?php echo get_field('card_1_solutions')['information_elements_card']?></div>
+                    <div class="d-flex justify-content-center"><a class="btn btn-secondary  my-4"
+                            href="<?php echo (get_field('card_1_solutions')['button_contact_us'])['url']?>"
+                            target="<?php echo (get_field('card_1_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -23,16 +25,18 @@
                     <h2 class="card-title text-center"><?php echo get_field('card_2_solutions')['title_card']?></h2>
                     <div class="elements_card"><?php echo get_field('card_2_solutions')['elements_card']?></div>
                     <hr>
-                    <div class="information_elements_card mt-4"><?php echo get_field('card_2_solutions')['information_elements_card']?></div>
-                    <div class="d-flex justify-content-center"><a class="btn btn-secondary me-4 my-4"
-                    href="<?php echo (get_field('card_2_solutions')['button_contact_us'])['url']?>"
-                    target="<?php echo (get_field('card_2_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a></div>
+                    <div class="information_elements_card mt-4">
+                        <?php echo get_field('card_2_solutions')['information_elements_card']?></div>
+                    <div class="d-flex justify-content-center"><a class="btn btn-secondary  my-4"
+                            href="<?php echo (get_field('card_2_solutions')['button_contact_us'])['url']?>"
+                            target="<?php echo (get_field('card_2_solutions')['button_contact_us'])['target']?>"><?php echo (get_field('card_1_solutions')['button_contact_us'])['title']?></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="information_asterisk text-center p-5">
+    <div class="information_asterisk text-center p-sm-5">
         <h2><?php echo get_field('information_with_asterisk')?></h2>
     </div>
 
@@ -40,11 +44,11 @@
         <div class="card-body text-center">
             <h2 class="title_contact_us"><?php echo get_field('card_contact_us')['title_card_contact_us']?></h2>
         </div>
-        <a class="btn btn-secondary"
-                    href="<?php echo (get_field('card_contact_us')['button_contact_us'])['url']?>"
-                    target="<?php echo (get_field('card_contact_us')['button_contact_us'])['target']?>"><?php echo (get_field('card_contact_us')['button_contact_us'])['title']?></a>
-        
     </div>
-    
+    <a class="btn btn-secondary button-card-contact"
+        href="<?php echo (get_field('card_contact_us')['button_contact_us'])['url']?>"
+        target="<?php echo (get_field('card_contact_us')['button_contact_us'])['target']?>"><?php echo (get_field('card_contact_us')['button_contact_us'])['title']?></a>
+
+
     <p class="information_solution"><?php echo get_field('information_solution')?></p>
 </div>

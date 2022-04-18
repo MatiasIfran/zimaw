@@ -16,7 +16,11 @@
 
 #block_solutions {
 
-    @include padding_200();
+    @include padding_100();
+
+    @media (min-width: 768px) { 
+        @include padding_200();
+    }
 
     .title_solutions {
         font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 42px/50px var(--unnamed-font-family-open-sans);
@@ -28,8 +32,16 @@
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 42px/50px var(--unnamed-font-family-open-sans);
     }
 
+    @media (max-width: 768px) { 
+        .title_solutions, .sub_title_social {
+            font-size: 26pt;
+        }
+    }
+
     .card-border {
-        height: 1000px;
+        @media (min-width: 768px) { 
+            height: 1000px; 
+        }
         border-top: 5px solid var(--unnamed-color-707070);
 
         .card-title {
@@ -40,10 +52,18 @@
             background: var(--unnamed-color-969696);
             @include font_button();
         }
+
+        @media (max-width: 768px) { 
+            a {
+                font-size: 21pt;
+            }
+        }
     }
 
     .card-border-purple {
-        height: 1000px;
+        @media (min-width: 768px) { 
+            height: 1000px; 
+        }
         border-top: 5px solid var(--unnamed-color-8000b7);
 
         .card-title {
@@ -57,12 +77,20 @@
         a:hover {
             @include button_hover();
         }
+
+        @media (max-width: 768px) { 
+            a {
+                font-size: 21pt;
+            }
+        }
     }
 
     .card-border-purple, .card-border {
         .elements_card {
 
-            height: 60%;
+            @media (min-width: 768px) { 
+                height: 60%;
+            }
 
             ul li {
                 list-style-type: none;
@@ -88,7 +116,9 @@
 
         .information_elements_card {
 
-            height: 15%;
+            @media (min-width: 768px) { 
+                height: 15%;
+            }
             ul li {
                 list-style-type: none;
                 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/26px var(--unnamed-font-family-open-sans);
@@ -104,6 +134,7 @@
     }
 
     .information_asterisk h2{
+        margin-bottom: 2rem;
         color: var(--unnamed-color-8000b7);
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/34px var(--unnamed-font-family-open-sans);
     
@@ -117,25 +148,44 @@
             font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 34px/46px var(--unnamed-font-family-open-sans);
             color: var(--unnamed-color-4e4e4e);
         }
+        @media (max-width: 768px) { 
+            .title_contact_us {
+                font-size: 24pt;
+            }
+        }
 
-        a {
+    }
+
+    .button-card-contact {
             position: absolute;
-            left: 40%;
-            margin-top: 5rem;
+            left: 25%;
+            @media (min-width: 768px) { 
+                left: 45%;
+            }
+            margin-top: -5rem;
 
             background: var(--unnamed-color-8000b7);
             @include font_button();
             border-radius: 33px;
+
+            @media (max-width: 768px) { 
+                font-size: 24pt;
+            }
+
         }
-        a:hover {
+        .button-card-contact:hover {
             @include button_hover();
         }
-    }
+
 
     .information_solution {
         margin-top: 10rem;
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-26)/40px var(--unnamed-font-family-open-sans);
         color: var(--unnamed-color-4e4e4e);
         text-align: left;
+
+        @media (max-width: 768px) { 
+            font-size: 19pt;
+        }
     }
 }

@@ -1,7 +1,11 @@
 #block_social {
 
-    @include padding_200();
-    
+    @include padding_100();
+
+    @media (min-width: 768px) { 
+        @include padding_200();
+    }
+
     .title_social {
         color: var(--unnamed-color-8000b7);
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-open-sans);
@@ -12,10 +16,31 @@
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 28px/40px var(--unnamed-font-family-open-sans);
     }
 
+    @media (max-width: 768px) { 
+        .title_social {
+            font-size: 20pt;
+        }
+        .sub_title_social {
+            font-size: 20pt;
+        }
+    }
+
+
     .group_svg {
-        margin-top: 8rem;
+        margin-top: 2rem;
+        @media (min-width: 768px) { 
+            margin-top: 8rem;
+        }
         svg {
           margin-right: 3rem;
+        }
+
+        @media (max-width: 768px) { 
+            svg {
+                width: 30px !important;
+                height: 30px !important;
+                margin-right: 1rem;
+            }
         }
     }
 }

@@ -21,4 +21,10 @@
             color: var(--unnamed-color-8000b7);
         }
     }
+
+    @media (max-width: 768px) { 
+        .title_services {
+            font-size: 22pt;
+        }
+    }
 }
