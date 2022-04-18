@@ -35,17 +35,25 @@
           <?php endif; ?>
         </div>
         
+      <?php  if($post != null): ?>
         <div id="footer_4" class="col-12 col-md-6 d-flex justify-content-md-end">
-          <?php if($post->post_name == 'danish'): ?>
-            <div>
-              <h4>De tjenester, du har brug for, <span>er her!</span></h4>
-            </div>
-          <?php else: ?>  
+          <?php if($post->post_name == 'english'): ?>
             <div>
               <h4>The services you need are <span>here!</span></h4>
             </div>
+          <?php else: ?>  
+            <div>
+              <h4>De tjenester, du har brug for, <span>er her!</span></h4>
+            </div>
           <?php endif; ?>
         </div>
+      <?php else: ?>
+        <div id="footer_4" class="col-12 col-md-6 d-flex justify-content-md-end">
+          <div>
+            <h4>De tjenester, du har brug for, <span>er her!</span></h4>
+          </div> 
+      </div>
+      <?php endif; ?>
         <!-- Footer Widgets End -->
 
       </div>
