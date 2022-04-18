@@ -1,3 +1,7 @@
+.wp-block-cover video.wp-block-cover__video-background {
+    object-fit: fill;
+}
+
 #rectangle_one {
     height: calc(100vh - 32px);
     max-height: 100%;
@@ -11,6 +15,10 @@
 
         .learn_more, .contact_us {
             width: 252px;
+
+            @media (max-width: 576px) { 
+                width: 40vw;
+            }
             height: 72px;
             border-radius: 36px;
             line-height: 50px !important;

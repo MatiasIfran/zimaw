@@ -61,7 +61,7 @@
                         <svg class="col-4" xmlns="http://www.w3.org/2000/svg" width="51.568" height="63.027" viewBox="0 0 51.568 63.027">
                             <path id="Icon_material-headset-mic" data-name="Icon material-headset-mic" d="M30.284,1.5A25.786,25.786,0,0,0,4.5,27.284V47.338a8.583,8.583,0,0,0,8.595,8.595h8.595V33.014H10.23v-5.73a20.054,20.054,0,1,1,40.108,0v5.73H38.879V55.933h11.46V58.8H30.284v5.73H47.473a8.583,8.583,0,0,0,8.595-8.595V27.284A25.786,25.786,0,0,0,30.284,1.5Z" transform="translate(-4.5 -1.5)"/>
                         </svg>
-                        <h2 class="col-8 card-title w-auto"><?php echo get_field('element_to_table_4')?></h2>
+                        <h2 class="col-8 card-title"><?php echo get_field('element_to_table_4')?></h2>
                     </div>
                 </div>
             </div>
