@@ -2,24 +2,60 @@ jQuery(document).ready(function ($) {
 
     //cards
     jQuery('#block_cards_plans').find('#btn-1').click(function (){
-        jQuery('#block_cards_plans').find('#elements_card_1').hide();
+        jQuery('#block_cards_plans').find('#elements_card_1').attr("style", "display: none");
+        jQuery('#block_cards_plans').find('#full_elements_card_1').attr("style", "display: block");
         jQuery('#block_cards_plans').find('#btn-1').attr("style", "display: none !important");
+        jQuery('#block_cards_plans').find('#btn-1-close').attr("style", "display: flex");
     });
+
+    jQuery('#block_cards_plans').find('#btn-1-close').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_1').show();
+        jQuery('#block_cards_plans').find('#full_elements_card_1').hide();
+        jQuery('#block_cards_plans').find('#btn-1').attr("style", "display: flex");
+        jQuery('#block_cards_plans').find('#btn-1-close').attr("style", "display: none");
+    })
 
     jQuery('#block_cards_plans').find('#btn-2').click(function (){
-        jQuery('#block_cards_plans').find('#elements_card_2').hide();
+        jQuery('#block_cards_plans').find('#elements_card_2').attr("style", "display: none");
+        jQuery('#block_cards_plans').find('#full_elements_card_2').attr("style", "display: block");
         jQuery('#block_cards_plans').find('#btn-2').attr("style", "display: none !important");
+        jQuery('#block_cards_plans').find('#btn-2-close').attr("style", "display: flex");
     });
+
+    jQuery('#block_cards_plans').find('#btn-2-close').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_2').show();
+        jQuery('#block_cards_plans').find('#full_elements_card_2').hide();
+        jQuery('#block_cards_plans').find('#btn-2').attr("style", "display: flex");
+        jQuery('#block_cards_plans').find('#btn-2-close').attr("style", "display: none");
+    })
 
     jQuery('#block_cards_plans').find('#btn-3').click(function (){
-        jQuery('#block_cards_plans').find('#elements_card_3').hide();
+        jQuery('#block_cards_plans').find('#elements_card_3').attr("style", "display: none");
+        jQuery('#block_cards_plans').find('#full_elements_card_3').attr("style", "display: block");
         jQuery('#block_cards_plans').find('#btn-3').attr("style", "display: none !important");
+        jQuery('#block_cards_plans').find('#btn-3-close').attr("style", "display: flex");
     });
 
+    jQuery('#block_cards_plans').find('#btn-3-close').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_3').attr("style", "display: flex");
+        jQuery('#block_cards_plans').find('#full_elements_card_3').attr("style", "display: none");
+        jQuery('#block_cards_plans').find('#btn-3').attr("style", "display: flex");
+        jQuery('#block_cards_plans').find('#btn-3-close').attr("style", "display: none");
+    })
+
     jQuery('#block_cards_plans').find('#btn-4').click(function (){
-        jQuery('#block_cards_plans').find('#elements_card_4').hide();
+        jQuery('#block_cards_plans').find('#elements_card_4').attr("style", "display: none");
+        jQuery('#block_cards_plans').find('#full_elements_card_4').attr("style", "display: block");
         jQuery('#block_cards_plans').find('#btn-4').attr("style", "display: none !important");
+        jQuery('#block_cards_plans').find('#btn-4-close').attr("style", "display: flex");
     });
+
+    jQuery('#block_cards_plans').find('#btn-4-close').click(function (){
+        jQuery('#block_cards_plans').find('#elements_card_4').show();
+        jQuery('#block_cards_plans').find('#full_elements_card_4').hide();
+        jQuery('#block_cards_plans').find('#btn-4').attr("style", "display: flex");
+        jQuery('#block_cards_plans').find('#btn-4-close').attr("style", "display: none");
+    })
 
     //finish card 
 
