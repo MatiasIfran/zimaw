@@ -11,8 +11,13 @@
 get_header();
 ?>
 
-<div class="wp-block-cover is-light"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay=""
-        muted="" loop="" playsinline="" src="<?php echo get_field('url_video')?>" data-object-fit="cover"></video>
+<div class="wp-block-cover is-light">
+    <video class="wp-block-cover__video-background intrinsic-ignore video_desktop" autoplay=""
+        muted="" loop="" playsinline="" src="<?php echo get_field('url_video_desktop')?>" data-object-fit="cover">
+    </video>
+    <video class="wp-block-cover__video-background intrinsic-ignore video_mobile" autoplay=""
+        muted="" loop="" playsinline="" src="<?php echo get_field('url_video_mobile')?>" data-object-fit="cover">
+    </video>
     <div class="wp-block-cover__inner-container">
         <section id="rectangle_one" class="">
             <div class="container h-75 d-flex align-items-end">
