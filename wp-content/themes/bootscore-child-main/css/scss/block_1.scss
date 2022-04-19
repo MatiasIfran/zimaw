@@ -4,6 +4,7 @@
 
     @media (min-width: 768px) { 
         @include padding_200();
+        width: 75% !important;
     }
 
     .title_block_one {
