@@ -16,13 +16,6 @@ get_header();
     <div class="wp-block-cover__inner-container">
         <section id="rectangle_one" class="">
             <div class="container h-75 d-flex align-items-end">
-                <div class="element d-flex text-md-center">
-                    <a class="btn btn-secondary me-4 mt-4 learn_more d-flex align-items-center justify-content-center"
-                        href="<?php echo get_field('learn_more_button')['url']?>"
-                        target="<?php echo get_field('learn_more_button')['target']?>"><?php echo get_field('learn_more_button')['title']?></a>
-                    <a class="btn btn-primary contact_us mt-4 d-flex align-items-center justify-content-center" href="<?php echo get_field('Contact_us_button')['url']?>"
-                        target="<?php echo get_field('Contact_us_button')['target']?>"><?php echo get_field('Contact_us_button')['title']?></a>
-                </div>
                 <a href="#block_1" class="scroll_down"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                         fill="currentColor" class="bi bi-arrow-down-circle d-flex justify-content-start"
                         viewBox="0 0 16 16">
