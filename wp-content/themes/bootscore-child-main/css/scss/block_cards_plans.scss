@@ -1,6 +1,7 @@
 #block_cards_plans {
 
-  padding: 100px 0px;
+  @include padding_50();
+  
   .title_block_four {
     font: var(--unnamed-font-style-italic) normal
       var(--unnamed-font-weight-bold) var(--unnamed-font-size-70) / 66px
@@ -19,10 +20,10 @@
 
   @media (max-width: 768px) { 
     .title_block_four {
-        font-size: 30pt;
+        font-size: 30px;
         text-align: center;
         span {
-          font-size: 30pt;
+          font-size: 30px;
         }
     }
 }
@@ -60,6 +61,22 @@
           var(--unnamed-font-family-open-sans);
         letter-spacing: var(--unnamed-character-spacing-0);
         color: var(--unnamed-color-3e3e3e);
+      }
+    }
+
+    @media (max-width: 768px) { 
+      .card-title {
+        font-size: 30px;
+        line-height: 41px;
+      }
+      .card-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      ul li {
+        font-size: 18px;
+        line-height: 26px;
       }
     }
 
@@ -136,5 +153,12 @@
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
       22px/30px var(--unnamed-font-family-open-sans);
     color: var(--unnamed-color-8000b7);
+  }
+
+  @media (max-width: 768px) { 
+    .info_price {
+      font-size: 16px;
+      line-height: 22px;
+    }
   }
 }

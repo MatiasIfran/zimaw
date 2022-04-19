@@ -13,11 +13,11 @@
 
     @media (max-width: 768px) { 
         .title_block_three {
-            font-size: 30pt;
+            font-size: 30px;
             text-align: center;
 
             span {
-                font-size: 30pt;
+                font-size: 30px;
             }
         }
     }
@@ -41,7 +41,8 @@
 
         @media (max-width: 768px) { 
             .card-title {
-                font-size: 18pt;
+                font-size: 18px;
+                line-height: 24px;
             }
         }
     }

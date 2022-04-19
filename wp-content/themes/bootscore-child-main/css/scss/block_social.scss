@@ -1,6 +1,6 @@
 #block_social {
 
-    @include padding_100();
+    @include padding_50();
 
     @media (min-width: 768px) { 
         @include padding_200();
@@ -18,10 +18,12 @@
 
     @media (max-width: 768px) { 
         .title_social {
-            font-size: 20pt;
+            font-size: 20px;
+            line-height: 36px;
         }
         .sub_title_social {
-            font-size: 20pt;
+            font-size: 20px;
+            line-height: 36px;
         }
     }
 

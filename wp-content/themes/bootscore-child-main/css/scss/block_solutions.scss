@@ -16,7 +16,7 @@
 
 #block_solutions {
 
-    @include padding_100();
+    @include padding_50();
 
     @media (min-width: 768px) { 
         @include padding_200();
@@ -34,7 +34,8 @@
 
     @media (max-width: 768px) { 
         .title_solutions, .sub_title_solutions {
-            font-size: 26pt;
+            font-size: 26px;
+            line-height: 40px;
         }
     }
 
@@ -54,8 +55,12 @@
         }
 
         @media (max-width: 768px) { 
+            .card-title {
+                font-size: 30px;
+                line-height: 41px;
+            }
             a {
-                font-size: 21pt;
+                font-size: 21px;
             }
         }
     }
@@ -79,8 +84,12 @@
         }
 
         @media (max-width: 768px) { 
+            .card-title {
+                font-size: 30px;
+                line-height: 41px;
+            }
             a {
-                font-size: 21pt;
+                font-size: 21px;
             }
         }
     }
@@ -98,6 +107,7 @@
                 background-image: url('../../../../uploads/assets/check-circle-fill.svg');
                 background-repeat: no-repeat;
                 background-size: 30px;
+                @media (max-width: 768px) { background-size: 18px;}
                 background-position-y: center;
                 padding: 10px 0 10px 40px;
 
@@ -112,6 +122,15 @@
                 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/26px var(--unnamed-font-family-open-sans);
                 color: var(--unnamed-color-3e3e3e);
             }
+
+            @media (max-width: 768px) { 
+                ul { padding-left: 0rem; }
+                ul li, ul p { 
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+
         }
 
         .information_elements_card {
@@ -128,8 +147,15 @@
             ul li:before{ 
                 content:"-"; 
                 position:relative; 
-                left:-5px;}
+                left:-5px;
+            }
 
+            @media (max-width: 768px) { 
+                ul li { 
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
         }
     }
 
@@ -141,6 +167,18 @@
         span {
             font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 27px/34px var(--unnamed-font-family-open-sans);
         }
+
+        @media (max-width: 768px) { 
+            .information_asterisk h2 {
+                font-size: 18px;
+                line-height: 26px;
+
+                span {
+                    font-size: 22px;
+                    line-height: 26px;
+                }
+            }
+        }
     }
 
     .card-contact-us {
@@ -150,7 +188,8 @@
         }
         @media (max-width: 768px) { 
             .title_contact_us {
-                font-size: 24pt;
+                font-size: 24px;
+                line-height: 33px;
             }
         }
 
@@ -169,7 +208,7 @@
             border-radius: 33px;
 
             @media (max-width: 768px) { 
-                font-size: 24pt;
+                font-size: 24px;
             }
 
         }
@@ -185,7 +224,8 @@
         text-align: left;
 
         @media (max-width: 768px) { 
-            font-size: 19pt;
+            font-size: 19px;
+            line-height: 32px;
         }
     }
 }

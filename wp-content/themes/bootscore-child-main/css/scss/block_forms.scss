@@ -24,12 +24,14 @@
 
     @media (max-width: 768px) { 
         .title_block_seven {
-            font-size: 30pt;
-            text-align: center;
+            font-size: 30px;
+            line-height: 40px;
 
             span{
-                font-size: 30pt;
+                font-size: 30px;
+                line-height: 40px;
             }
+            padding-bottom: 2rem;
         }
     }
 
@@ -49,6 +51,12 @@
                 font: var(--unnamed-font-style-normal) normal normal var(--unnamed-font-size-24)/66px var(--unnamed-font-family-open-sans);
                 color: var(--unnamed-color-000000);
                 text-align: left;
+            }
+
+            @media (max-width: 768px) { 
+                .title_form {
+                    font-size: 22px;
+                }
             }
 
             .togglebuttons {
@@ -97,7 +105,7 @@
                 @media (max-width: 576px) { 
                     &>span .wpcf7-list-item-label {
                         width: 151px;
-                        line-height: 25px !important;     
+                        font-size: 20px;    
                     }
                 }
 
@@ -157,7 +165,7 @@
 
     @media (max-width: 1199px) { 
         #button_up {
-            font-size: 30pt;
+            font-size: 30px;
             
             svg {
                 display: none; 

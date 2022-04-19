@@ -26,14 +26,15 @@
 
         @media (max-width: 576px) { 
             h2 {
-                font-size: 28pt;
+                font-size: 28px;
+                line-height: 21px;
             }
             
             h2::first-letter {
-                font-size: 38pt;
+                font-size: 38px;
             }
             h4 {
-                font-size: 18pt;
+                font-size: 18px;
             }
         }
     }
@@ -53,10 +54,10 @@
 
         @media (max-width: 576px) { 
             h4 {
-                font-size: 18pt;
+                font-size: 18px;
             }
             span {
-                font-size: 20pt;
+                font-size: 20px;
             }
         }
             

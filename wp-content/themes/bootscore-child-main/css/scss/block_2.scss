@@ -1,7 +1,7 @@
 #block_2 {
 
     overflow-x:hidden;
-    @include padding_100();
+    @include padding_50();
 
     @media (min-width: 768px) { 
         @include padding_200();
@@ -24,10 +24,11 @@
 
     @media (max-width: 768px) { 
         .title_block_two {
-            font-size: 36pt;
-
+            font-size: 36px;
+            line-height: 40px;
             span {
-                font-size: 36pt;
+                font-size: 36px;
+                line-height: 40px;
             }
         }
      }
@@ -36,6 +37,13 @@
         letter-spacing: var(--unnamed-character-spacing-0);
         color: var(--unnamed-color-3d3d3d);
     }
+    @media (max-width: 768px) { 
+        .text_one_block_2, .text_two_block_2, .text_three_block_2 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
 
     .block_purple {
         width: 70vw;
@@ -52,6 +60,8 @@
         @media (max-width: 768px) { 
             width: 100vw;
             .text_two_block_2 {
+                font-size: 18px;
+                line-height: 24px;
                 padding-right: 20vw !important;
             }
         }
