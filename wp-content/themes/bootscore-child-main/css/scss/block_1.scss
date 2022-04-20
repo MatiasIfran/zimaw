@@ -4,12 +4,14 @@
 
     @media (min-width: 768px) { 
         @include padding_200();
-        width: 75% !important;
+        .container {
+            width: 75% !important;
+        }
     }
 
     .title_block_one {
         color: var(--unnamed-color-8000b7);
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-40)/48px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 34px/48px var(--unnamed-font-family-open-sans);
     }
 
     @media (max-width: 768px) { 
@@ -21,7 +23,7 @@
 
     .sub_title_block_one {
         color: var(--unnamed-color-000000);
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 38px/46px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 32px/46px var(--unnamed-font-family-open-sans);
     }
 
     @media (max-width: 768px) { 
