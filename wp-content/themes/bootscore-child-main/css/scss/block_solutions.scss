@@ -4,7 +4,7 @@
     border-radius: 6px;
     border: 3px solid transparent;
     
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 36px/49px var(--unnamed-font-family-open-sans);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/38px var(--unnamed-font-family-open-sans);
     color: var(--unnamed-color-ffffff);
 }
 
@@ -23,13 +23,13 @@
     }
 
     .title_solutions {
-        font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 42px/50px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 36px/50px var(--unnamed-font-family-open-sans);
         color: var(--unnamed-color-8000b7);
     }
 
     .sub_title_solutions {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 36px/50px var(--unnamed-font-family-open-sans);
         color: var(--unnamed-color-3c3c3c);
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 42px/50px var(--unnamed-font-family-open-sans);
     }
 
     @media (max-width: 768px) { 
@@ -52,6 +52,11 @@
         a {
             background: var(--unnamed-color-969696);
             @include font_button();
+        }
+        @media (min-width: 769px) { 
+            a {
+                width: 75%;
+            }
         }
 
         @media (max-width: 768px) { 
@@ -81,6 +86,11 @@
         }
         a:hover {
             @include button_hover();
+        }
+        @media (min-width: 769px) { 
+            a {
+                width: 75%;
+            }
         }
 
         @media (max-width: 768px) { 
@@ -162,10 +172,10 @@
     .information_asterisk h2{
         margin-bottom: 2rem;
         color: var(--unnamed-color-8000b7);
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 22px/34px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 18px/34px var(--unnamed-font-family-open-sans);
     
         span {
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 27px/34px var(--unnamed-font-family-open-sans);
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/34px var(--unnamed-font-family-open-sans);
         }
 
         @media (max-width: 768px) { 
@@ -183,7 +193,7 @@
 
     .card-contact-us {
         .title_contact_us {
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 34px/46px var(--unnamed-font-family-open-sans);
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/38px var(--unnamed-font-family-open-sans);
             color: var(--unnamed-color-4e4e4e);
         }
         @media (max-width: 768px) { 
@@ -219,7 +229,7 @@
 
     .information_solution {
         margin-top: 10rem;
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-26)/40px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/40px var(--unnamed-font-family-open-sans);
         color: var(--unnamed-color-4e4e4e);
         text-align: left;
 

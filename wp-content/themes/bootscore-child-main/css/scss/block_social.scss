@@ -4,17 +4,20 @@
 
     @media (min-width: 768px) { 
         @include padding_200();
-        width: 75% !important;
+
+        .container {
+            width: 75% !important;
+        }
     }
 
     .title_social {
         color: var(--unnamed-color-8000b7);
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-26)/40px var(--unnamed-font-family-open-sans);
     }
 
     .sub_title_social {
         color: var(--unnamed-color-3c3c3c);
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 28px/40px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-24)/40px var(--unnamed-font-family-open-sans);
     }
 
     @media (max-width: 768px) { 
@@ -23,8 +26,8 @@
             line-height: 36px;
         }
         .sub_title_social {
-            font-size: 20px;
-            line-height: 36px;
+            font-size: 18px;
+            line-height: 34px;
         }
     }
 
@@ -42,7 +45,7 @@
             svg {
                 width: 30px !important;
                 height: 30px !important;
-                margin-right: 1rem;
+                margin: 0 0.5rem;
             }
         }
     }

@@ -3,18 +3,11 @@
   @include padding_50();
   
   .title_block_four {
-    font: var(--unnamed-font-style-italic) normal
-      var(--unnamed-font-weight-bold) var(--unnamed-font-size-70) / 66px
-      var(--unnamed-font-family-open-sans);
-    letter-spacing: var(--unnamed-character-spacing-0);
+    font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 60px/66px var(--unnamed-font-family-open-sans);
     color: var(--unnamed-color-4e4e4e);
-
+    
     span {
-      font: var(--unnamed-font-style-normal) normal
-        var(--unnamed-font-weight-bold) var(--unnamed-font-size-70) / 66px
-        var(--unnamed-font-family-open-sans);
-      letter-spacing: var(--unnamed-character-spacing-0);
-      color: var(--unnamed-color-4e4e4e);
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/66px var(--unnamed-font-family-open-sans);
     }
   }
 

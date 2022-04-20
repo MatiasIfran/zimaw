@@ -6,15 +6,12 @@
     }
     
     .title_block_six {
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 60px/76px var(--unnamed-font-family-open-sans);
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 48px/60px var(--unnamed-font-family-open-sans);
         color: var(--unnamed-color-3c3c3c);
-        text-align: left;
 
         span {
-            font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 60px/76px var(--unnamed-font-family-open-sans);
-            letter-spacing: var(--unnamed-character-spacing-0);
+            font: var(--unnamed-font-style-italic) normal var(--unnamed-font-weight-bold) 48px/60px var(--unnamed-font-family-open-sans);
             color: var(--unnamed-color-8000b7);
-            text-align: left;
         }
     }
 
@@ -35,7 +32,7 @@
         border-radius: 10px;
 
         p {
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 26px/32px var(--unnamed-font-family-open-sans);
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 20px/30px var(--unnamed-font-family-open-sans);
             color: var(--unnamed-color-3c3c3c);
         }
 
@@ -50,14 +47,12 @@
             background-image: url('../../../../uploads/assets/bookmark-fill.svg');
             background-size: contain;
             background-repeat: no-repeat;
-            width: 49px;
+            width: 40px;
 
             .bookmark_text {
-                margin-top: -4px;
-                margin-left: 2px;
                 span {
                     color: var(--unnamed-color-ffffff);
-                    font: var(--unnamed-font-style-normal) normal 800 36px/49px var(--unnamed-font-family-open-sans);
+                    font: var(--unnamed-font-style-normal) normal 800 30px/41px var(--unnamed-font-family-open-sans);
                 }
             }
             
