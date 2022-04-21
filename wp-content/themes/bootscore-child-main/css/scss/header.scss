@@ -76,6 +76,10 @@
     }
 
     .dropdown {
+        #dropdownMenuChangeFlag {
+            color: var(--unnamed-color-f3f3f3);
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 14px/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+        }
         @media (max-width: 992px) { 
             display: none;
         }

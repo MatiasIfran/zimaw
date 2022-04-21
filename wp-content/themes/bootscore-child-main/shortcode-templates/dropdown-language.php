@@ -5,28 +5,28 @@
 ?>
 
 <?php  if($post != null): ?>
-<div class="dropdown text-center">
-    <button class="btn btn-secondary bg-white dropdown-toggle d-lg-flex align-items-center justify-content-center" type="button" id="dropdownMenuChangeFlag"
+<div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuChangeFlag"
         data-bs-toggle="dropdown" aria-expanded="false">
         <?php 
-            if($post->post_name == 'danish'): echo $flag_danish;
-            else : echo $flag_english;
+            if($post->post_name == 'danish'): echo 'DK';
+            else : echo 'EN';
             endif;
         ?>
     </button>
     <ul class="dropdown-menu w-100" style="min-width:0px" aria-labelledby="dropdownMenuChangeFlag">
         <?php if($post->post_name == 'danish'): ?>
-            <li><a class="dropdown-item" href="<?php echo get_home_url().'/english'?>"><?php echo $flag_english;?></a></li>
+            <li><a class="dropdown-item" href="<?php echo get_home_url().'/english'?>"><?php echo 'EN';?></a></li>
         <?php else: ?>
-            <li><a class="dropdown-item" href="<?php echo get_home_url()?>"><?php echo $flag_danish;?></a></li>
+            <li><a class="dropdown-item" href="<?php echo get_home_url()?>"><?php echo 'DK';?></a></li>
         <?php endif;?>
     </ul>
 </div>
 <div class="button-mobile text-center">
     <?php if($post->post_name == 'danish'): ?>
-        <a class="btn" href="<?php echo get_home_url().'/english'?>"><?php echo $flag_english.' Sprog'?></a>
+        <a class="btn" href="<?php echo get_home_url().'/english'?>"><?php echo $flag_english.' EN'?></a>
     <?php else: ?>
-        <a class="btn" href="<?php echo get_home_url()?>"><?php echo $flag_danish.' Lenguajes'?></a>
+        <a class="btn" href="<?php echo get_home_url()?>"><?php echo $flag_danish.' DK'?></a>
     <?php endif; ?>
 </div>
 <?php endif; ?>
