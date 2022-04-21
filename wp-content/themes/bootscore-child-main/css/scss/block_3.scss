@@ -22,6 +22,9 @@
     
     .card {
         height: 226px;
+        @media (max-width: 768px) { 
+            height: 8rem;
+        }
         svg {
            color: $primary;
            fill: $primary;
