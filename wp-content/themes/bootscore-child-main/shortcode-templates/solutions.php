@@ -45,10 +45,11 @@
             <h2 class="title_contact_us"><?php echo get_field('card_contact_us')['title_card_contact_us']?></h2>
         </div>
     </div>
-    <a class="btn btn-secondary button-card-contact"
-        href="<?php echo (get_field('card_contact_us')['button_contact_us'])['url']?>"
-        target="<?php echo (get_field('card_contact_us')['button_contact_us'])['target']?>"><?php echo (get_field('card_contact_us')['button_contact_us'])['title']?></a>
-
+    <div class="d-flex justify-content-center">
+        <a class="btn btn-secondary button-card-contact"
+            href="<?php echo (get_field('card_contact_us')['button_contact_us'])['url']?>"
+            target="<?php echo (get_field('card_contact_us')['button_contact_us'])['target']?>"><?php echo (get_field('card_contact_us')['button_contact_us'])['title']?></a>
+    </div>
 
     <p class="information_solution"><?php echo get_field('information_solution')?></p>
 </div>

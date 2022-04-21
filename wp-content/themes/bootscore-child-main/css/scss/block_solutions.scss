@@ -207,12 +207,7 @@
 
     .button-card-contact {
             position: absolute;
-            left: 25%;
-            @media (min-width: 768px) { 
-                left: 45%;
-            }
             margin-top: -5rem;
-
             background: var(--unnamed-color-8000b7);
             @include font_button();
             border-radius: 33px;
