@@ -3,7 +3,7 @@
     <h4 class='sub_title_solutions'><?php echo get_field('sub_title_block_solution')?></h4>
 
     <div class="row mt-5">
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <div class="card card-border shadow p-4 mb-5 rounded">
                 <div class="card-body">
                     <h2 class="card-title text-center"><?php echo get_field('card_1_solutions')['title_card']?></h2>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <div class="card card-border-purple shadow p-4 mb-5 rounded">
                 <div class="card-body">
                     <h2 class="card-title text-center"><?php echo get_field('card_2_solutions')['title_card']?></h2>

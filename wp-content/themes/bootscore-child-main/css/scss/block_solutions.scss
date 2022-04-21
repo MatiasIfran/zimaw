@@ -32,7 +32,7 @@
         color: var(--unnamed-color-3c3c3c);
     }
 
-    @media (max-width: 768px) { 
+    @media (max-width: 767px) { 
         .title_solutions, .sub_title_solutions {
             font-size: 26px;
             line-height: 40px;
@@ -53,13 +53,13 @@
             background: var(--unnamed-color-969696);
             @include font_button();
         }
-        @media (min-width: 769px) { 
+        @media (min-width: 768px) { 
             a {
                 width: 75%;
             }
         }
 
-        @media (max-width: 768px) { 
+        @media (max-width: 767px) { 
             .card-title {
                 font-size: 30px;
                 line-height: 41px;
@@ -87,13 +87,13 @@
         a:hover {
             @include button_hover();
         }
-        @media (min-width: 769px) { 
+        @media (min-width: 768px) { 
             a {
                 width: 75%;
             }
         }
 
-        @media (max-width: 768px) { 
+        @media (max-width: 767px) { 
             .card-title {
                 font-size: 30px;
                 line-height: 41px;
@@ -117,7 +117,7 @@
                 background-image: url('../../../../uploads/assets/check-circle-fill.svg');
                 background-repeat: no-repeat;
                 background-size: 30px;
-                @media (max-width: 768px) { background-size: 18px;}
+                @media (max-width: 767px) { background-size: 18px;}
                 background-position-y: center;
                 padding: 10px 0 10px 40px;
 
@@ -133,7 +133,7 @@
                 color: var(--unnamed-color-3e3e3e);
             }
 
-            @media (max-width: 768px) { 
+            @media (max-width: 767px) { 
                 ul { padding-left: 0rem; }
                 ul li, ul p { 
                     font-size: 20px;
@@ -160,7 +160,7 @@
                 left:-5px;
             }
 
-            @media (max-width: 768px) { 
+            @media (max-width: 767px) { 
                 ul li { 
                     font-size: 20px;
                     line-height: 26px;
@@ -178,7 +178,7 @@
             font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 22px/34px var(--unnamed-font-family-open-sans);
         }
 
-        @media (max-width: 768px) { 
+        @media (max-width: 767px) { 
             .information_asterisk h2 {
                 font-size: 18px;
                 line-height: 26px;
@@ -196,7 +196,7 @@
             font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 28px/38px var(--unnamed-font-family-open-sans);
             color: var(--unnamed-color-4e4e4e);
         }
-        @media (max-width: 768px) { 
+        @media (max-width: 767px) { 
             .title_contact_us {
                 font-size: 24px;
                 line-height: 33px;
@@ -212,7 +212,7 @@
             @include font_button();
             border-radius: 33px;
 
-            @media (max-width: 768px) { 
+            @media (max-width: 767px) { 
                 font-size: 24px;
             }
 
@@ -228,7 +228,7 @@
         color: var(--unnamed-color-4e4e4e);
         text-align: left;
 
-        @media (max-width: 768px) { 
+        @media (max-width: 767px) { 
             font-size: 19px;
             line-height: 32px;
         }
