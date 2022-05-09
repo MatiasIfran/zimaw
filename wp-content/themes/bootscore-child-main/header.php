@@ -66,7 +66,6 @@
                   'walker' => new bootstrap_5_wp_nav_menu_walker()
                 ));
                 ?>
-                <?php include dirname(__FILE__).'/shortcode-templates/dropdown-language.php'?>
                 <!-- Bootstrap 5 Nav Walker Main Menu End -->
               </div>
             </div>

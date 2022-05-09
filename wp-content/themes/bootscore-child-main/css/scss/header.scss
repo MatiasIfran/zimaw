@@ -31,7 +31,7 @@
             }
         }
 
-        li:last-child {
+        li:nth-last-child(3) {
             background: var(--unnamed-color-8000b7);
             border-radius: 37px;
             border: 3px solid transparent;
@@ -63,6 +63,18 @@
                 }
             }
         }
+
+        li:nth-last-child(2) {
+            .mega-menu-link {
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+            }
+            &:hover {
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
+            }
+            ul {
+                width: 100% !important;
+            }
+        }
     }
 
     .navbar_toggler {
@@ -72,16 +84,6 @@
 
         svg {
             height: 40px;
-        }
-    }
-
-    .dropdown {
-        #dropdownMenuChangeFlag {
-            color: var(--unnamed-color-f3f3f3);
-            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 14px/var(--unnamed-line-spacing-33) var(--unnamed-font-family-open-sans);
-        }
-        @media (max-width: 992px) { 
-            display: none;
         }
     }
 
