@@ -39,7 +39,9 @@
             </tr>
             <?php endforeach; ?>
         </tbody>
-        <a id="button_show" class="btn btn-primary show_table py-3 px-5"><?php echo get_field('text_button') ?></a>
+        <div class="d-flex justify-content-center">
+            <a id="button_show" class="btn btn-primary show_table py-3 px-5"><?php echo get_field('text_button') ?></a>
+        </div>
     </table>
 </div>
 <div class="line_gradient"></div>
