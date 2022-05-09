@@ -66,7 +66,7 @@ jQuery(document).ready(function ($) {
         jQuery('#block_table').find('#elements_hide').css('display','flex');
         jQuery('#block_table').find('.line_gradient').hide();
         jQuery('#block_table').find(jQuery( "tr" )).css('display', 'table-row');
-        jQuery(this).hide();
+        jQuery(this).attr("style", "display: none !important");
     });
 
     jQuery('#block_table').find('#button_hide').click(function () {

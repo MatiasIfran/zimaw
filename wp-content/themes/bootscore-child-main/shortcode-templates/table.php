@@ -40,7 +40,7 @@
             <?php endforeach; ?>
         </tbody>
         <div class="d-flex justify-content-center">
-            <a id="button_show" class="btn btn-primary show_table py-3 px-5"><?php echo get_field('text_button') ?></a>
+            <a id="button_show" class="btn btn-primary show_table px-5 d-flex align-items-center"><?php echo get_field('text_button') ?></a>
         </div>
     </table>
 </div>
